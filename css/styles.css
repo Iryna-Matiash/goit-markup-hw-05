@@ -619,8 +619,8 @@ display: flex;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.review-user-input:hover >.review-input-icon,
-.review-user-input:focus >.review-input-icon {
+.review-user-input:hover + .review-input-icon,
+.review-user-input:focus + .review-input-icon {
     fill: #4D5AE5;
 }
 
